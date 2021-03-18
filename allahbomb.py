@@ -6,13 +6,14 @@ import random
 from termcolor import colored
 
 print(colored( ''' AllahBomber
+Не несу никакой ответственности! За ваши действия
 
 		  create by Mer4un
 ''','magenta'))
 
 
-phone = input(colored('Enter your phone number>>: ','cyan'))
-countT = input(colored('Enter threading>>: ','blue'))
+phone = input(colored('Введите телефонный номер жертвы>>: ','cyan'))
+countT = input(colored('Введите сколько потоков>>: ','blue'))
 
 
 iteration = 0
